@@ -1,18 +1,8 @@
-const header = document.querySelector("header");
-const hamburgerBtn = document.querySelector("#hamburger-btn");
-const closeMenuBtn = document.querySelector("#close-menu-btn");
+document.addEventListener('DOMContentLoaded', () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
 
-hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
-closeMenuBtn.addEventListener("click", () => header.classList.remove("show-mobile-menu"));
-
-
-
-
-
-
-
-
-
-
-
-
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+    });
+});

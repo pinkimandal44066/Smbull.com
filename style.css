@@ -176,6 +176,18 @@ header .navbar {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* 1st PART */
 
 
@@ -189,12 +201,15 @@ header .navbar {
 body {}
 
 header {
-  position: fixed;
+  position: sticky;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 1;
   padding: 20px;
+  background-color: #A5C564;
+  
+ 
 }
 
 header .navbar {
@@ -223,26 +238,12 @@ header .navbar {
   transition: 0.2s ease;
 }
 
-.navbar .menu-links .language-item a {
-  display: flex;
-  gap: 6px;
-  align-items: center;
-}
 
-.navbar .menu-links .language-item span {
-  font-size: 1.2rem; 
-}
 
-.navbar .menu-links .join-btn a {
-  border: 1px solid #fff;
-  padding: 6px 12px;
-  border-radius: 4px;
-}
 
-.navbar .menu-links .join-btn a:hover {
-  color: #fff;
-  border-color: transparent;
-}
+
+
+
 
 .hero-section {
   height: 100vh;
@@ -327,6 +328,7 @@ header .navbar {
     align-items: center;
     height: 0;
     background: rgba(0, 0, 0, 0.8);
+    /* background-color: #A5C564; */
     position: fixed;
     top: 0;
     left: 0;
@@ -1224,6 +1226,70 @@ p {
       grid-column: span 2;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar */
+
+.navbar img {
+  max-width: 100%;
+  height: auto;
+  width: 60px;
+  border-radius: 10%; 
+  object-fit: cover;
+}
+
+/* Adjustments for different screen sizes */
+@media (max-width: 1200px) { /* Large screens */
+  .navbar img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 992px) { /* Medium screens */
+  .navbar img {
+    width: 45px;
+  }
+}
+
+@media (max-width: 768px) { /* Small screens */
+  .navbar img {
+    width: 40px;
+  }
+}
+
+@media (max-width: 576px) { /* Extra small screens, mobile devices */
+  .navbar img {
+    width: 35px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
