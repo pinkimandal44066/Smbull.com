@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Smbull</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
 </head>
@@ -15,13 +16,14 @@
         <img src="images/logo.svg" alt="">
       </a>
       <ul class="menu-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Aboutus</a></li>
-        <li class="language-item">
-          <a href="#">Services</a>
-        </li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contactus</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a  href="aboutus.html">Aboutus</a></li>
+        <li><a href="services.html">Services</a>  </li>
+        
+      
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contactus.html">Contactus</a></li>
+        <!-- <li><a class="active" href="index.html">Home</a></li> -->
         <span id="close-menu-btn" class="material-symbols-outlined">close</span>
       </ul>
       <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
@@ -115,44 +117,107 @@
 
 
 
+<!-- CONTACT 5TH PART -->
+
+
+<div class="contact-container">
+  <h2>Find Us Here</h2>
+  <div class="map-container">
+      <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.143703080782!2d-122.41941568468126!3d37.7749292797594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809f7e1a2f53%3A0x78c28b2b5f4771f9!2sSan%20Francisco%2C%20CA%2094103%2C%20USA!5e0!3m2!1sen!2sin!4v1692857764420!5m2!1sen!2sin" 
+          width="100%" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy"></iframe>
+  </div>
+  <div class="arrow-icon">
+    <i class="fas fa-arrow-right"></i>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <footer class="footer">
+  <div class="footer-top">
+      <input type="email" placeholder="Enter email address" class="subscribe-input">
+      <button class="subscribe-button">SEND</button>
+  </div>
   <div class="footer-content">
-    <!-- <div class="footer-logo">
-      <img src="images/logo.svg" alt="SMBULL Logo">
-      <p>&copy; 2024 SMBULL Software Company. All rights reserved.</p>
-    </div> -->
-    <div class="footer-about">
-      <h4>About Us</h4>
-      <p>SMBULL Software Company is dedicated to providing innovative solutions for modern businesses. We specialize in custom software development, mobile app creation, IT support, and digital marketing. Our mission is to empower businesses with technology that drives success and growth.</p>
-    </div>
-    <div class="footer-links">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </div>
-    <div class="footer-contact">
-      <h4>Contact Us</h4>
-      <p><strong>Address:</strong> 123 Technology Drive, Suite 456, Tech City, TC 78910</p>
-      <p><strong>Phone:</strong> +1 (234) 567-8901</p>
-      <p><strong>Email:</strong> <a href="mailto:info@smbull.com">info@smbull.com</a></p>
-    </div>
-    <div class="footer-social">
-      <h4>Follow Us</h4>
-      <div class="social-icons">
-        <a href="#" class="social-icon"><img src="images/facebook-icon.svg" alt="Facebook"></a>
-        <a href="#" class="social-icon"><img src="images/twitter-icon.svg" alt="Twitter"></a>
-        <a href="#" class="social-icon"><img src="images/linkedin-icon.svg" alt="LinkedIn"></a>
-        <a href="#" class="social-icon"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+      <div class="footer-section">
+          <h2 class="footer-logo">SMBULL.COM</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at mauris a velit.</p>
+          <a href="#">read more -</a>
       </div>
-    </div>
+      <div class="footer-section">
+          <h2>Discover</h2>
+          <ul>
+              <li><a href="#">Buy & Sell</a></li>
+              <li><a href="#">Merchant</a></li>
+              <li><a href="#">Giving Back</a></li>
+              <li><a href="#">Help & Support</a></li>
+          </ul>
+      </div>
+      <div class="footer-section">
+          <h2>About</h2>
+          <ul>
+              <li><a href="#">Staff</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+          </ul>
+      </div>
+      <div class="footer-section">
+          <h2>Resources</h2>
+          <ul>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Global</a></li>
+              <li><a href="#">Charts</a></li>
+              <li><a href="#">Privacy</a></li>
+          </ul>
+      </div>
+      <div class="footer-section">
+          <h2>Social Media</h2>
+          <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Google+</a></li>
+          </ul>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <div class="footer-info">
+          <p>Copyright ©2024 All rights reserved </p>
+          <div class="footer-links">
+              <a href="#">Terms</a>
+              <a href="#">Privacy</a>
+              <a href="#">Compliances</a>
+          </div>
+      </div>
   </div>
 </footer>
+
 
 
   <script>
@@ -163,5 +228,9 @@
     hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
     closeMenuBtn.addEventListener("click", () => header.classList.remove("show-mobile-menu"));
   </script>
+
+
+
+<!-- <script src="index.js"></script> -->
 </body>
 </html>
